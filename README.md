@@ -16,14 +16,14 @@ Utilisation
 Plugins utilisés
 ---------------------
 ### Frontend: #####
-- Require.js
-- Bootstrap
+- [Require.js](http://requirejs.org/)
+- [Bootstrap](http://twitter.github.com/bootstrap/)
 
 ### Backend: #####
-- Node.js (Hébergé avec nodejitsu)
-- Express
-- Swig
-- Mongoose
+- [Node.js](http://nodejs.org/) (Hébergé avec [nodejitsu](http://nodejitsu.com/))
+- [Express](http://expressjs.com/)
+- [Swig](http://paularmstrong.github.com/swig/)
+- [Mongoose](http://mongoosejs.com/)
 
 ### Build: #####
-- Yeoman 
+- [Yeoman](http://yeoman.io/)
