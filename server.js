@@ -10,6 +10,14 @@ var CONFIG = require('./config');
 var express = require('express');
 var app = express();
 
+//Twitter
+var twitter = require('ntwitter');
+var twit = new twitter(CONFIG.twitter);
+
+//Bitly
+var Bitly = require('bitly');
+var bitly = new Bitly(CONFIG.bitly.username, CONFIG.bitly.key);
+
 //Create mongodb link
 var mongoose = require('mongoose');
 mongoose.connect(CONFIG.mongoURL);
@@ -160,7 +168,19 @@ for(var key in MODELS) {
 
 				var newItem = new Model.model(req.query);
 				return newItem.save(function(err,data) {
+					if (!err && data && data.text && data.text.length) {
+						try {
+							bitly.shorten('http://chier.ca/'+data._id, function(err, response) {
+								if (err) return;
+								twit.updateStatus(data.text+' '+response.data.url,function (err, data) {
+									
+								});
+							});
+						} catch(e) {}
+						
+					}
 					return sendResponse(res,err,data);
+
 				});
 
 			}

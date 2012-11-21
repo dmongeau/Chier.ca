@@ -149,11 +149,19 @@ a.arrow:hover .bg {
 	height:50px;
 }
 
+#follow {
+	position:absolute;
+	left:20px;
+	bottom:20px;
+	font-size:12px;
+	z-index:9999;
+}
+
 
 #inputTest {
 	position:absolute;
 	left:-999px;
-	width: 600px;
+	width: 500px;
 	display: inline-block;
 	overflow:hidden;
 	word-wrap: break-word;

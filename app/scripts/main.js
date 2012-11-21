@@ -122,9 +122,9 @@ require(['jquery','utils','slide'], function($,Utils,Slide) {
 				return;
 			}
 
-			if($(this).val() == (start+' ') && (e.keyCode == 8 || e.keyCode == 46)) {
+			if($(this).val() == (start) && (e.keyCode == 8 || e.keyCode == 46)) {
 				e.preventDefault();
-				$(this).val(start+' ');
+				$(this).val(start);
 			}
 		});
 

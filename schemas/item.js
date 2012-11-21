@@ -47,8 +47,8 @@ var schema = mongoose.Schema({
 });
 
 schema.path('text').validate(function (value) {
-  return /^Chier /.test(value);
-}, 'Le texte doit commencer par «Chier ».');
+  return /^Chier[\ \,\-\.]/.test(value);
+}, 'Le texte doit commencer par «Chier».');
 
 schema.path('text').validate(function (value) {
   return value.length < 120;
