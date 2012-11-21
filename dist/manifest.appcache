@@ -1,0 +1,48 @@
+SyntaxError: Parse error
+
+ReferenceError: Can't find variable: CURRENT_SLIDE
+
+  http://localhost:3501/scripts/95ac9fc2.amd-app.js:1
+  http://localhost:3501/scripts/95ac9fc2.amd-app.js:1
+  http://localhost:3501/scripts/95ac9fc2.amd-app.js:1
+  http://localhost:3501/scripts/95ac9fc2.amd-app.js:1
+  http://localhost:3501/scripts/95ac9fc2.amd-app.js:1
+CACHE MANIFEST
+
+# Time: Tue Nov 20 2012 20:14:07 GMT-0500 (Est)
+# This manifest was created by confess.js, http://github.com/jamesgpearce/confess
+#
+# Retrieved URL: http://localhost:3501/
+# User-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.12 Safari/535.11
+#
+# Config:
+#  task: appcache
+#  userAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.12 Safari/535.11
+#  wait: 0
+#  consolePrefix: #
+#  verbose: true
+#  appcache:
+#   urlsFromDocument: true
+#   urlsFromRequests: false
+#   cacheFilter: .*
+#   networkFilter: null
+#  url: http://localhost:3501
+#  configFile: C:\Users\master\AppData\Roaming\npm\node_modules\yeoman\lib\support\confess.json
+
+CACHE:
+http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js
+http://localhost:3501/img/glyphicons-halflings-white.png
+http://localhost:3501/img/glyphicons-halflings.png
+http://www.google-analytics.com/ga.js
+http://yui.yahooapis.com/3.7.3/build/yui/yui-min.js
+http://yui.yahooapis.com/combo?3.7.3/build/oop/oop-min.js&3.7.3/build/event-custom-base/event-custom-base-min.js&3.7.3/build/event-custom-complex/event-custom-complex-min.js&3.7.3/build/history-base/history-base-min.js&3.7.3/build/dom-core/dom-core-min.js&3.7.3/build/dom-base/dom-base-min.js&3.7.3/build/selector-native/selector-native-min.js&3.7.3/build/selector/selector-min.js&3.7.3/build/node-core/node-core-min.js&3.7.3/build/node-base/node-base-min.js&3.7.3/build/event-base/event-base-min.js&3.7.3/build/history-html5/history-html5-min.js&3.7.3/build/event-synthetic/event-synthetic-min.js&3.7.3/build/history-hash/history-hash-min.js&3.7.3/build/history-hash-ie/history-hash-ie-min.js
+images/08632527.01.png
+images/f3d51aa6.02.png
+scripts/8ab52a5b.plugins.js
+scripts/95ac9fc2.amd-app.js
+scripts/vendor/cf69c6f2.modernizr.min.js
+styles/0b9b6b1f.bootstrap.css
+styles/cf085b05.main.css
+
+NETWORK:
+*
