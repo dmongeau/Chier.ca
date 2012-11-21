@@ -18,10 +18,12 @@ Plugins utilisés
 ### Frontend: #####
 - Require.js
 - Bootstrap
+
 ### Backend: #####
 - Node.js (Hébergé avec nodejitsu)
 - Express
 - Swig
 - Mongoose
+
 ### Build: #####
 - Yeoman 
