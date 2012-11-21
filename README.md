@@ -1,4 +1,4 @@
-Chiez.ca
+Chier.ca
 ====================
 Plateforme de micro-blogging pour phase anale.
 
